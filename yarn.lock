@@ -2322,11 +2322,6 @@
   resolved "https://registry.npmmirror.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
-"@types/text-encoding@^0.0.36":
-  version "0.0.36"
-  resolved "https://registry.npmjs.org/@types/text-encoding/-/text-encoding-0.0.36.tgz#c1343e35188cb8f8d5f9ada4ff5b72829b29ea19"
-  integrity sha512-LfATA7bH+MtAPlOshYgQ1M3n2r0TSB6Ns5ESvKYlVugkKErQg5oFbR2qO7XrKtNsrtzedDvTeqQfyTjdPJH7jw==
-
 "@types/tough-cookie@*":
   version "4.0.2"
   resolved "https://registry.npmmirror.com/@types/tough-cookie/-/tough-cookie-4.0.2.tgz#6286b4c7228d58ab7866d19716f3696e03a09397"
@@ -3753,6 +3748,27 @@ data-urls@^3.0.2:
     abab "^2.0.6"
     whatwg-mimetype "^3.0.0"
     whatwg-url "^11.0.0"
+
+db3.js@^0.2.16:
+  version "0.2.16"
+  resolved "https://registry.yarnpkg.com/db3.js/-/db3.js-0.2.16.tgz#eff7b725cbc2aadda25861810fd6427d97e53b03"
+  integrity sha512-h/+oT3m7oylj05qr6UveI0EL/pc49tWFAHpncYWlIL5Bg1Xr1rECCLD6xhscKodZhFjBD3obw69ewH0FrEk7vA==
+  dependencies:
+    "@ethereumjs/util" "^8.0.5"
+    "@metamask/eth-sig-util" "^5.0.2"
+    "@noble/secp256k1" "^1.7.0"
+    "@protobuf-ts/grpcweb-transport" "^2.8.2"
+    "@protobuf-ts/runtime" "^2.8.2"
+    "@protobuf-ts/runtime-rpc" "^2.8.2"
+    "@scure/bip32" "^1.1.1"
+    "@scure/bip39" "^1.1.1"
+    bson "5.0.1"
+    buffer "^6.0.3"
+    events "^3.3.0"
+    int64-buffer "^1.0.1"
+    js-sha3 "^0.8.0"
+    loglevel "^1.8.1"
+    tweetnacl "^1.0.3"
 
 debug@4, debug@^4.0.1, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
